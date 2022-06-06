@@ -2,7 +2,10 @@
 
 ## Wev-developer
 
-### My contacts:
+### **About me:**
+ _I'm 31 y.o. born in Russia, currently living in Yerevan. In February, i decided to change my proffesion, before that i worked as a civil engineer for 5 years. I've been doing front-end development since March and taken several training courses. Now i lead one partial project. I also continue to study java script and react for greater competence._
+
+### **My contacts**:
 Adress: Armenia, Yerevan, Pushkin 60-89\
 Phone: +374 55 798 469\
 Email: vmsaksonov@gmail.com\
@@ -32,3 +35,7 @@ Saratov
 
 - RS School (at the moment
 )
+
+### Languages:
+- English (A2)
+- Russian (native)
