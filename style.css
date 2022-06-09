@@ -1,7 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    line-height: 2;
+    scroll-behavior: smooth;
+}
+
+a {
+    color:#1c00d4;
+    font-weight: 700;
+}
+
+a:hover {
+    background: #ffffff;
+    text-decoration: underline;
+    color: #1c00d4;
+    font-weight: 700;
+}
+
 h1 {
-    color: green;
+    font-weight: 900;
 }
 
 h2 {
-    color: red;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #ffffff;
+    /* border-radius: 5px; */
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+.nav-item {
+    position: relative;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    color: white;
+    margin: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    background: #ffffff;
+    text-decoration: underline;
+    color: #1c00d4;
+    font-weight: 700;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 20px 0 20px 20px;
+    background-color:black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+}
+    .nav {
+        flex-wrap: wrap;
+        height: auto;
+        align-items:center;
+        justify-content: center;
+    }
+    .nav-list {
+        flex-direction:column;
+        font-size: 14px;
+        padding: 0;
+        align-items:center;
+        letter-spacing: 10px;
+    }
+    .nav-list:hover {
+        font-size: 14px;
+    }
+    .profile-title {
+        padding: 70px 0 70px 10px;
+    }
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-title {
+    padding: 70px 0 70px 70px;
+}
+
+.section-code {
+    font-family: monospace;
+}
+
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 100px;
+    background-color:white;
+    border-bottom: 1px solid #000000;
+}
+
+.logo-rs {
+    width: 10%;
+    margin-top: 20px;
+}
+
+.git-link {
+    text-decoration: none;
 }
