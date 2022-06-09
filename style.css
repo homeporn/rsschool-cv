@@ -138,3 +138,7 @@ h2 {
     width: 10%;
     margin-top: 20px;
 }
+
+.git-link {
+    text-decoration: none;
+}
