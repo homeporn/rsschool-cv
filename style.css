@@ -108,6 +108,9 @@ h2 {
     .profile-title {
         padding: 70px 0 70px 10px;
     }
+    .section-profile {
+        flex-direction: column;
+    }
 }
 
 .section-profile {
