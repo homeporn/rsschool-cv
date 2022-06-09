@@ -19,7 +19,6 @@ a:hover {
 }
 
 h1 {
-<<<<<<< HEAD
     font-weight: 900;
 }
 
@@ -143,11 +142,3 @@ h2 {
 .git-link {
     text-decoration: none;
 }
-=======
-    color: blue;
-}
-
-h2 {
-    color: red;
-}
->>>>>>> ed5a554fc0cbfe383c8d81e45bcf1259d4deedce
